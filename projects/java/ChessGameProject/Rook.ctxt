@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Rook
+comment0.text=\r\n\ Rook\ Class\r\n\ Creates\ a\ Rook\ with\ a\ specific\ location\ and\ colour\r\n\ Haley\ Yerxa\r\n\ January\ 2018\r\n
+comment1.params=x\ y\ c
+comment1.target=Rook(int,\ int,\ char)
+comment2.params=b
+comment2.target=void\ setAvailable(Board)
+numComments=3

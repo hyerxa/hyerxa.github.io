@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ board\ class\r\n\ A\ chess\ board\ with\ 8\ by\ 8\ squares\ that\ keeps\ track\ of\ where\ pieces\ are\ on\ its\ squares\r\n\ Haley\ Yerxa\r\n\ January\ 2018\r\n
+comment1.params=
+comment1.target=Board()
+comment2.params=
+comment2.target=javax.swing.ImageIcon\ getBlack()
+comment3.params=
+comment3.target=javax.swing.ImageIcon\ getWhite()
+comment4.params=i\ j\ c
+comment4.target=void\ setSquare(int,\ int,\ char)
+comment5.params=i\ j
+comment5.target=char\ getSquare(int,\ int)
+comment6.params=i\ j\ s
+comment6.target=void\ setSpot(int,\ int,\ char)
+comment7.params=i\ j
+comment7.target=char\ getSpot(int,\ int)
+numComments=8

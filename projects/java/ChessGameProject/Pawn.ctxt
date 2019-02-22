@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Pawn
+comment0.text=\r\n\ Pawn\ Class\r\n\ Creates\ a\ Pawn\ with\ a\ specific\ location\ and\ whether\ it\ is\ white\ or\ black\r\n\ Haley\ Yerxa\r\n\ December\ 2017\r\n
+comment1.params=x\ y\ c
+comment1.target=Pawn(int,\ int,\ char)
+comment2.params=b
+comment2.target=void\ setHasMoved(boolean)
+comment3.params=
+comment3.target=boolean\ getHasMoved()
+comment4.params=b
+comment4.target=void\ setAvailable(Board)
+numComments=5

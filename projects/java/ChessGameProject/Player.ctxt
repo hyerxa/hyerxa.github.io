@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Player\ Class\r\n\ Class\ for\ a\ player\ with\ a\ name,\ a\ score,\ and\ a\ colour\ (white\ or\ black)\r\n\ Haley\ Yerxa\r\n\ January\ 2018\r\n
+comment1.params=n\ s\ b
+comment1.target=Player(java.lang.String,\ int,\ boolean)
+comment2.params=n
+comment2.target=void\ setName(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=s
+comment4.target=void\ setScore(int)
+comment5.params=
+comment5.target=int\ getScore()
+comment6.params=b
+comment6.target=void\ setColour(boolean)
+comment7.params=
+comment7.target=boolean\ getColour()
+numComments=8

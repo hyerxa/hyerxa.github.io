@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MathTest
+comment0.text=\r\n\ Math\ Test\r\n\ Tests\ Basic\ integer\ addition\ and\ subtraction\r\n\ Haley\ Yerxa\r\n\ 11/6/17\r\n
+comment1.params=e
+comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ askQuestion()
+comment4.params=
+comment4.target=MathTest()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\ This\ is\ the\ main\ program\r\n\ In\ this\ section,\ we\ call\ the\ class\ constructor,\ which\ constructs\ the\ window.\r\n\ The\ second\ line\ tells\ the\ window\ how\ to\ close\ (using\ the\ "X"\ in\ the\ top\ right\ corner)\r\n
+numComments=6

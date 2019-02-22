@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Queen
+comment0.text=\r\n\ Queen\ Class\r\n\ Creates\ a\ Queen\ with\ a\ specific\ location\r\n\ Haley\ Yerxa\r\n\ January\ 2018\r\n
+comment1.params=x\ y\ c
+comment1.target=Queen(int,\ int,\ char)
+comment2.params=b
+comment2.target=void\ setAvailable(Board)
+numComments=3

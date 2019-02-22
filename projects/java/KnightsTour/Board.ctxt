@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Board
+comment0.text=\r\n\ Board\ Class\r\n\ A\ chess\ board\ with\ 8\ by\ 8\ squares\r\n\ Haley\ Yerxa\r\n\ December\ 2017\r\n
+comment1.params=
+comment1.target=Board()
+comment10.params=i\ j
+comment10.target=int\ getPriority(int,\ int)
+comment2.params=
+comment2.target=javax.swing.ImageIcon\ getBlack()
+comment3.params=
+comment3.target=javax.swing.ImageIcon\ getWhite()
+comment4.params=
+comment4.target=javax.swing.ImageIcon\ getGreen()
+comment5.params=i\ j\ c
+comment5.target=void\ setSquare(int,\ int,\ char)
+comment6.params=i\ j
+comment6.target=char\ getSquare(int,\ int)
+comment7.params=i\ j\ b
+comment7.target=void\ setTaken(int,\ int,\ boolean)
+comment8.params=i\ j
+comment8.target=boolean\ getTaken(int,\ int)
+comment9.params=
+comment9.target=void\ setPriority()
+comment9.text=\ to\ give\ the\ program\ better\ odds\ of\ succeeding,\ it\ prioritizes\ the\r\n\ \ \ \ \ \ \ corners\ and\ edges\ so\ that\ if\ possible,\ they\ will\ hit\ a\ corner\ first,\r\nthen\ look\ for\ an\ edge,\ and\ then\ lowest\ priority\ are\ the\ middle\ squares.
+numComments=11

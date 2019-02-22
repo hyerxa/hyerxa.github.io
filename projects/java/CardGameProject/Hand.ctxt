@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Hand
+comment0.text=\r\n\ Hand\ Class\r\n\ Extends\ from\ deck\ class,\ but\ does\ not\ default\ to\ 52\ cards,\ starts\ with\ set\ number\ of\ cards\r\n\ Haley\ Yerxa\r\n\ December\ 2107\r\n
+comment1.params=
+comment1.target=Hand()
+comment2.params=n\ x\ y
+comment2.target=Hand(int,\ int,\ int)
+comment3.params=deck
+comment3.target=void\ discard(Deck)
+numComments=4

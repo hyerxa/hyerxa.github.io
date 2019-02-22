@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=King
+comment0.text=\r\n\ King\ Class\r\n\ Creates\ a\ King\ with\ a\ specific\ location\ and\ whether\ it\ is\ white\ or\ black\r\n\ Haley\ Yerxa\r\n\ December\ 2017\r\n
+comment1.params=x\ y\ c
+comment1.target=King(int,\ int,\ char)
+comment2.params=b
+comment2.target=void\ setAvailable(Board)
+numComments=3

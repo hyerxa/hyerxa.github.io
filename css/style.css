@@ -1,0 +1,13 @@
+h1 {
+    font-family: fantasy;
+    color: forestgreen;
+}
+
+p {
+    font-family: cursive;
+    color: orchid;
+}
+
+.project {
+    font-size: 18px;
+}
