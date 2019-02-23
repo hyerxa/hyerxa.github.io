@@ -1,13 +1,245 @@
+html {
+    height=100%;
+}
 h1 {
-    font-family: fantasy;
-    color: forestgreen;
+    font-family: sans-serif;
+    color: darkblue;
+    position: relative;
+    top: 50px;
+    z-index: 0;
+    line-height: 1.5;
 }
 
+h1.top {
+    font-family: sans-serif;
+    color: darkblue;
+    position: relative;
+    top: 50px;
+    z-index: 0;
+    line-height: 1.5;
+}
+
+h2, h3, h4 {
+    font-family: sans-serif;
+    color: cadetblue;
+    position: relative;
+    top: 30px;
+    line-height: 1.5;
+    z-index: 0;
+}
+
+.top {
+    line-height: 1.5px;
+    position: relative;
+    top:0;
+    left:0;
+}
+
+#home {
+    position: absolute;
+    top: 50px;
+}
+
+a:link {
+    color: blue;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+a:visited {
+    color: cornflowerblue;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: midnightblue;
+    line-height: 1.5;
+}
+
+body {
+    height = 100%;
+    background-image: linear-gradient(aliceblue, lightblue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 p {
-    font-family: cursive;
-    color: orchid;
+    font-family: sans-serif;
+    color: dodgerblue;
+    position: relative;
+    top: 10px;
+    line-height: 1.5;
 }
 
 .project {
     font-size: 18px;
+    line-height:1.5;
+}
+
+ul {
+    line-height: 1.5;
+    position: relative;
+    top: 20px;
+}
+
+li {
+    font-family: sans-serif;
+    color: steelblue;
+    line-height: 1.5;
+}
+
+#navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    float: left;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, aliceblue, skyblue);
+    text-align: center;
+    border-style: solid;
+    border-color: midnightblue;
+    border-width: 5px;
+}
+
+.navItem {
+    position: relative;
+    text-align: center;
+    float: left;
+    z-index:1000;
+    padding: 5px;
+}
+
+.navLink {
+    display: block;
+    min-width=50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+input {
+    width: 40%;
+    padding: 10px 15px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 40%;
+    padding: 10px 15px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+form {
+    font-family: sans-serif;
+    color:midnightblue;
+    position: relative;
+    top: 30px;
+}
+
+.center {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.centerI {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightI {
+    float: right;
+    width: 200px;
+    padding: 10px;
+}
+
+.leftP {
+    left: right;
+    width: 700px;
+    padding: 10px;
+}
+
+.usual {
+    font-family: sans-serif;
+    color:darkslateblue;
+    padding: 10px 15px;
+    margin: 6px 0;
+    line-height: 1.5;
+    position: relative;
+    top: 30px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    position: relative;
+    top: 100px;
+    width: 250px;
+    background-color: aliceblue;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    background-color: skyblue;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery2 {
+    float: left;
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    height: 200px;
+}
+
+div.gallery2 img {
+    height: 100%;
+    border: 5px solid skyblue;
+    
+    width: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+div.desc:hover {
+    background-color: skyblue;
+}
+
+a.noUnderline {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#resume {
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+}
+
+#scratch {
+    font-size: 16px;
+}
+
+#achievements {
+    float: left;
+    width: 50%;
 }
