@@ -5,7 +5,6 @@ h1 {
     font-family: sans-serif;
     color: darkblue;
     position: relative;
-    top: 50px;
     z-index: 0;
     line-height: 1.5;
 }
@@ -14,7 +13,6 @@ h1.top {
     font-family: sans-serif;
     color: darkblue;
     position: relative;
-    top: 50px;
     z-index: 0;
     line-height: 1.5;
 }
@@ -23,31 +21,101 @@ h2, h3, h4 {
     font-family: sans-serif;
     color: cadetblue;
     position: relative;
-    top: 30px;
     line-height: 1.5;
     z-index: 0;
 }
 
-.top {
+div.top {
     line-height: 1.5px;
     position: relative;
-    top:0;
-    left:0;
+    height: 200px;
+    z-index: 1500;
+    top:0px;
+    left:0px;
+    overflow: auto;
 }
 
-#home {
+.bottom {
+    width:100%;
+    text-align:center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1500;
+    height: 45px;
+    border: 5px solid #68B1CC;
+    border-radius: 10px;
+    background: linear-gradient(to right, aliceblue, #68B1CC);
+}
+
+.left {
+    float: left;
+    padding: 5px;
+}
+
+.right {
+    float: right;
+    padding: 5px;
+}
+
+.picture {
+    float: left;
+    width: 100%;
+    
+}
+
+.items {
+    float: left;
+    position: relative;
+}
+
+.push {
     position: absolute;
-    top: 50px;
+    height: 50px;
+    width: 100%;
+}
+
+
+.social {
+    padding: 5px;
+}
+
+#greeting {
+    text-align: center;
+    width: 100%;
+}
+
+.next {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.next2 {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.list {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    left: 0px;
 }
 
 a:link {
-    color: blue;
+    color: cornflowerblue;
     line-height: 1.5;
     font-family: sans-serif;
 }
 
 a:visited {
-    color: cornflowerblue;
+    color: cadetblue;
     line-height: 1.5;
     font-family: sans-serif;
 }
@@ -69,7 +137,6 @@ p {
     font-family: sans-serif;
     color: dodgerblue;
     position: relative;
-    top: 10px;
     line-height: 1.5;
 }
 
@@ -81,7 +148,8 @@ p {
 ul {
     line-height: 1.5;
     position: relative;
-    top: 20px;
+    list-style-type: circle;
+    width: 500px;
 }
 
 li {
@@ -92,36 +160,32 @@ li {
 
 #navigation {
     list-style-type: none;
+    top: 10px;
     padding: 0;
-    margin: 0;
-    position: fixed;
-    float: left;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-image: linear-gradient(to right, aliceblue, skyblue);
+    z-index: 900;
+    width:  950px;
+    margin: 0px auto;
     text-align: center;
-    border-style: solid;
-    border-color: midnightblue;
-    border-width: 5px;
 }
 
+
 .navItem {
-    position: relative;
     text-align: center;
     float: left;
     z-index:1000;
     padding: 5px;
+    margin: 0px 5px;
+    border: 2px solid midnightblue;
+    border-radius: 5px;
+    background: lightblue;
 }
+
 
 .navLink {
     display: block;
-    min-width=50px;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    position: relative;
     z-index: 1000;
 }
 
@@ -143,7 +207,11 @@ form {
     font-family: sans-serif;
     color:midnightblue;
     position: relative;
-    top: 30px;
+    text-align: center;
+}
+
+.formDiv {
+    height: 400px;
 }
 
 .center {
@@ -177,15 +245,14 @@ form {
     margin: 6px 0;
     line-height: 1.5;
     position: relative;
-    top: 30px;
 }
 
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
+    padding: 10px;
     float: left;
     position: relative;
-    top: 100px;
     width: 250px;
     background-color: aliceblue;
 }
@@ -214,6 +281,10 @@ div.gallery2 img {
     width: auto;
 }
 
+.none {
+    display: none;
+}
+
 div.desc {
     padding: 15px;
     text-align: center;
@@ -231,7 +302,6 @@ a.noUnderline {
 
 #resume {
     position: relative;
-    top: 50px;
     font-size: 20px;
 }
 
