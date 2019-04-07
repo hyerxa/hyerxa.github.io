@@ -1,33 +1,37 @@
 <!doctype html>
 <html lang=en>
   <head>
-    <meta charset=utf-8>
+    <meta charset=utf-8 name="viewport" content="width=device-width, initial-scale=1">
     <title>Haley Yerxa</title>
+    <!-- Home page -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-      <div class="top">
-      <ul id="navigation">
+    <!-- Next section creates link to home page through logo and creates top navigation bar-->
+    <div class="top"> 
+      <a href="index.html"><img src="images/logo.svg" alt="Logo" class="centerI" width="500"></a>
+        <ul id="navigation">
           <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="about.html" class="navLink">About Me</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="education.html" class="navLink">Education</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="samples.html" class="navLink">Work Samples</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="experience.html" class="navLink">Work Experience</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="accomplishments.html" class="navLink">Accomplishments</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="profiles.html" class="navLink">Profile Links</a></li>
-          <li class="navItem">|</li>
           <li class="navItem"><a href="contact.html" class="navLink">Contact Me</a></li>
-      </ul>
+        </ul>
+     </div>
+      
+     <!-- Creates canvas gradient rectangle (very thin, so like a line) to separate top from page contents-->
+     <div class="next">
+       <canvas id="myCanvas" width="950" height="30"></canvas>
+       <script src="javascript/canvas.js"></script>
+     <!-- Javascript link for greeting that changes depending on time of day -->
+       <script src = "javascript/greeting.js"></script>
       </div>
-      <div>
-        <h2 id="home">Welcome to my website! Here you can find all you need to know about me.</h2>
-      </div>
+      
+      <!-- Next to create gallery of image links to various pages on site -->
+      <div class="next">
         <div class="gallery">
           <a href="about.html" class="noUnderline">
             <img src="images/prom.JPG" alt="Prom photo" width="300" height="300">
@@ -76,6 +80,23 @@
             <div class="desc">Contact Me</div>
           </a>
         </div>
-
+      </div>
+      
+      <!-- Bottom creates fixed footer with social media links -->
+      <div class="push"></div>
+      <div class="bottom" width="300" height="10"> 
+        <div class="center" width="300" height="10">
+          <a href="http://www.linkedin.com/in/haley-y-37a752b9"><img src="images/linkedin.png" class="social" height="30" width="auto"></a>
+          <a href="https://www.instagram.com/haleyyerxa/"><img src="images/instagram.png" class="social" height="30" width="auto"></a>
+          
+          <!-- svg to match logo -->
+          <svg height="30" width="120" class="social">
+            <rect x="0" y="0" rx="10" ry="20" height="30" width="120" style="fill:aliceblue;stroke:lightblue;stroke-width:5;stroke-opacity:0.75" />
+            <text fill="#0088aa" font-size="16" font-family="Consolas" x="15" y="20">haleyYerxa;</text>
+          </svg>
+          <a href="https://github.com/hyerxa"><img src="images/github.svg" class="social" height="30" width="auto"></a>
+          <a href="https://www.hackerrank.com/haley_yerxa24"><img src="images/hackerrank.svg" class="social" height="30" width="auto"></a>
+        </div>
+      </div>
   </body>
 </html>
