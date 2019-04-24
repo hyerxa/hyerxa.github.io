@@ -8,8 +8,9 @@
   </head>
   <body>
     <!-- Next section creates link to home page through logo and creates top navigation bar-->
+      
     <div class="top"> 
-      <a href="index.html"><img src="images/logo.svg" alt="Logo" class="centerI" width="500"></a>
+      <a href="index.html"><img src="images/logo.svg" alt="Logo" class="centerI" width="24%"></a>
         <ul id="navigation">
           <li class="navItem"><a href="index.html" class="navLink">Home</a></li>
           <li class="navItem"><a href="about.html" class="navLink">About Me</a></li>
@@ -26,57 +27,59 @@
      <div class="next">
        <canvas id="myCanvas" width="950" height="30"></canvas>
        <script src="canvas.js"></script>
-     <!-- Javascript link for greeting that changes depending on time of day -->
+       <!--Javascript link for greeting that changes depending on time of day -->
+       <h2 id="greeting"></h2>
        <script src = "greeting.js"></script>
       </div>
       
       <!-- Next to create gallery of image links to various pages on site -->
-      <div class="next">
+      
+      <div class="gallery-container">
         <div class="gallery">
           <a href="about.html" class="noUnderline">
-            <img src="images/prom.JPG" alt="Prom photo" width="300" height="300">
+            <img src="images/prom.JPG" alt="Prom photo" style="width:100%">
             <div class="desc">About Me</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="education.html" class="noUnderline">
-            <img src="images/valedictorian.JPG" alt="Graduation Picture" width="300" height="300">
+            <img src="images/valedictorian.JPG" alt="Graduation Picture" style="width:100%">
             <div class="desc">Education and Training</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="samples.html" class="noUnderline">
-            <img src="images/java.png" alt="Java sample" width="300" height="400">
+            <img src="images/java.jpg" alt="Java sample" style="width:100%">
             <div class="desc">Work Samples</div>
           </a>
         </div>
 
         <div class="gallery">
           <a href="experience.html" class="noUnderline">
-            <img src="images/volunteer.png" alt="Volunteering" width="300" height="400">
-            <div class="desc">Work Experience and Volunteering</div>
+            <img src="images/volunteer.jpg" alt="Volunteering" style="width:100%">
+            <div class="desc">Work Experience</div>
           </a>
         </div>
       
-        <div class="gallery">
+       <div class="gallery">
           <a href="accomplishments.html" class="noUnderline">
-            <img src="images/trophy.jpg" alt="Golf photo" width="300" height="200">
+            <img src="images/trophy.jpg" alt="Golf photo" style="width:100%">
             <div class="desc">Accomplishments</div>
           </a>
         </div>
       
         <div class="gallery">
           <a href="profiles.html" class="noUnderline">
-            <img src="images/headshot2.jpg" alt="roster photo" width="300" height="300">
+            <img src="images/headshot2.jpg" alt="roster photo" style="width:100%">
             <div class="desc">Links to Profiles</div>
-          </a>
+            </a>
         </div>
       
         <div class="gallery">
           <a href="contact.html" class="noUnderline">
-            <img src="images/golf.jpg" alt="Photo at Salvation Army" width="300" height="300">
+            <img src="images/golf.jpg" alt="Photo at Salvation Army" style="width:100%">
             <div class="desc">Contact Me</div>
           </a>
         </div>
@@ -84,18 +87,16 @@
       
       <!-- Bottom creates fixed footer with social media links -->
       <div class="push"></div>
-      <div class="bottom" width="300" height="10"> 
-        <div class="center" width="300" height="10">
-          <a href="http://www.linkedin.com/in/haley-y-37a752b9"><img src="images/linkedin.png" class="social" height="30" width="auto"></a>
-          <a href="https://www.instagram.com/haleyyerxa/"><img src="images/instagram.png" class="social" height="30" width="auto"></a>
-          
-          <!-- svg to match logo -->
+      <div class="bottom"> 
+        <div class="center">
+          <a href="http://www.linkedin.com/in/haley-y-37a752b9"><img src="images/linkedin.png" class="social"></a>
+          <a href="https://www.instagram.com/haleyyerxa/"><img src="images/instagram.png" class="social"></a>
           <svg height="30" width="120" class="social">
-            <rect x="0" y="0" rx="10" ry="20" height="30" width="120" style="fill:aliceblue;stroke:lightblue;stroke-width:5;stroke-opacity:0.75" />
-            <text fill="#0088aa" font-size="16" font-family="Consolas" x="15" y="20">haleyYerxa;</text>
+            <rect x="0" y="0" rx="10" ry="20" height="23" width="110" style="fill:aliceblue;stroke:lightblue;stroke-width:5;stroke-opacity:0.75" />
+            <text fill="#0088aa" font-size="14" font-family="Consolas" x="15" y="15">haleyYerxa;</text>
           </svg>
-          <a href="https://github.com/hyerxa"><img src="images/github.svg" class="social" height="30" width="auto"></a>
-          <a href="https://www.hackerrank.com/haley_yerxa24"><img src="images/hackerrank.svg" class="social" height="30" width="auto"></a>
+          <a href="https://github.com/hyerxa"><img src="images/github.svg" class="social"></a>
+          <a href="https://www.hackerrank.com/haley_yerxa24"><img src="images/hackerrank.svg" class="social"></a>
         </div>
       </div>
   </body>
